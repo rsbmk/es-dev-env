@@ -1,0 +1,7 @@
+Configure you `.env` for the database connection
+
+Run `docker-compose up -d` to start DB's containers
+
+In the browser, go to `http://localhost:5601/login` and login with: 
+- Username `elastic`
+- Password `${KIBANA_PASSWORD}` (from `.env`)
